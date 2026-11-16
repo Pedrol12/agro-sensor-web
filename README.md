@@ -5,11 +5,10 @@ Projeto prático desenvolvido para a disciplina de **Desenvolvimento Web** na **
 
 ---
 
-## 👨‍🎓 Identificação do Aluno
+## 👨‍🎓 Integrantes do Projeto
 
-* **Nome:** Pedro Lucas de Souza
-* **Matrícula UniRV:** `[INSIRA SUA MATRÍCULA AQUI]`
-* **E-mail:** pedrolucasouza93@gmail.com
+* **Pedro Lucas Souza Barros**
+* **Kawã**
 
 ---
 
