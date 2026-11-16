@@ -8,7 +8,7 @@ Projeto prático desenvolvido para a disciplina de **Desenvolvimento Web** na **
 ## 👨‍🎓 Integrantes do Projeto
 
 * **Pedro Lucas Souza Barros**
-* **Kawã**
+* **Kawã Santos Silva**
 
 ---
 
