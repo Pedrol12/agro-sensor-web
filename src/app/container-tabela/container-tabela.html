@@ -1,0 +1,35 @@
+<div class="painel-container">
+  <h2>{{ titulo }}</h2>
+  <p class="subtitulo">{{ fazenda }}</p>
+
+  <div class="table-responsive">
+    <table class="tabela-sensores">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Data / Hora</th>
+          <th>N (mg/kg)</th>
+          <th>P (mg/kg)</th>
+          <th>K (mg/kg)</th>
+          <th>Umidade</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let s of leituras; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ s.data }}</td>
+          <td>{{ s.n }}</td>
+          <td>{{ s.p }}</td>
+          <td>{{ s.k }}</td>
+          <td>{{ s.umidade * 100 }}%</td>
+          <td>
+            <span class="badge" [ngClass]="'status-' + (s.status ? s.status.toLowerCase() : '')">
+              {{ s.status }}
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
